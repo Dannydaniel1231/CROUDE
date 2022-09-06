@@ -1,0 +1,61 @@
+body{
+    background-color: #aaf3f3;
+
+}
+
+table{
+    width: 88%;
+    margin: 4px auto;
+    background-color: rgb(124, 154, 168);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204, 200, 200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even),table.list thread> tr{
+    background-color: rgb(204, 200, 200);
+    
+}
+
+input[type="text"], input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+    
+input[type="submit"], input[type="reset"]{
+    background: #eeee;
+    
+    padding: 6px 12 px;
+    margin: 15px 0 10px ;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+button{
+    background: #eeee;
+    padding: 6px 12 px;
+    margin: 15px 0 10px ;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+}
